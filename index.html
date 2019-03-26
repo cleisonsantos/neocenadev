@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cenadev</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header id="header" class="trs">
+        <div id="logo">
+            <a href="">
+                <img src="img/logo.svg">
+            </a>
+        </div>
+        <div id="btn-menu" onclick="showMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="menu" class="outside">
+            <ul>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#services">Serviços</a>
+                </li>
+                <li>
+                    <a href="#portifolio">Portifólio</a>
+                </li>
+                <li>
+                    <a href="#store">Loja Virtual</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="banner">
+        <h1 class="">DESENVOLVIMENTO WEB E HOSPEDAGEM</h1>
+        <p>Realizamos diversos serviços na web.</p>
+
+    </section>
+    <section id="about" class="spacing">
+        <h2>Sobre a Cenadev</h2>
+        <p>Trabalhamos com diversos tipos de serviços Web, estamos localizados na região metropolitana de Belo Horizonte
+            - MG , trabalhamos com desenvolvimento de web sites,hospedagem e consultoria!
+            Nosso objetivo é trazer soluções para pequenas e médias empresas ou ate mesmo você que esta começando agora
+            e busca inovações para seus negócios, entre em contato e solicite seu orçamento sem compromisso!</p>
+    </section>
+    <section id="services" class="">
+        <h2>Nossos Serviços</h2>
+        <div class="service">
+            <div class="service-img" style="background-image: url('/img/programacao01.jpg');">
+
+            </div>
+            <div class="service-desc">
+                <h3>Criação de Sites</h3>
+                <p>Aumente a credibilidade com seus clientes, site profissional com ótimos preços, entre em contato.</p>
+                <a href="#contact" class="btn">Contato</a>
+            </div>
+
+        </div>
+        <div class="service">
+            <div class="service-img orderOne" style=" background-image: url('/img/hospedagem.jpg');">
+
+            </div>
+            <div class="service-desc" style="">
+                <h3>Hospedagem</h3>
+                <p>Consulte nossos planos,temos planos a partir de R$ 29,90/mês</p>
+                <a href="https://store.cenadev.com" target="_blank" class="btn">Ir a Loja</a>
+            </div>
+        </div>
+        <div class="service">
+            <div class="service-img" style="background-image: url('/img/email.png');">
+
+            </div>
+            <div class="service-desc">
+                <h3>E-mail Coorporativo</h3>
+                <p>Já pensou em ter um email de forma mais profissional? Tenha email corporativo com o nome da sua
+                    empresa.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="portifolio" class="spacing">
+        <h2>Conheça alguns de nossos clientes</h2>
+        <div class="owl-carousel">
+            <div> <img src="img/portifolio/1.svg" alt="" srcset=""> </div>
+            <div> <img src="img/portifolio/2.svg" alt="" srcset=""> </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+            <div> Your Content </div>
+          </div>
+
+            <h2>Apareça para o mundo! Esteja na internet.</h2>
+            <h3>Entre com contato e solicite um orçamento sem compromisso.</h3>
+    
+    </section>
+
+    <section id="contact" class="spacing">
+        <h2>Contato</h2>
+
+        <h4>Entre em contato e solicite seu orçamento sem compromisso!</h4>
+        <h4>Não se esqueça que realizamos também consultoria em seu site caso já o tenha!</h4>
+
+        <form name="sentMessage" id="contactForm" method="POST" action="mail/mail.php">
+
+            <input class="form-control" id="nome" name="nome" type="text" placeholder="Nome" required="required"
+                minlength="4" pattern="[A-Za-z\s]+${3,20}$">
+
+            <input class="form-control" id="email" name="email" type="email" placeholder="Seu Email" required="required"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+            <textarea class="form-control" id="mensagem" name="mensagem" rows="4" placeholder="Digite aqui sua mensagem"
+                required="required"></textarea>
+
+            <input type="submit" class="btn btn-primary btn-xl" id="send-btn" value="Enviar mensagem">
+
+        </form>
+
+    </section>
+
+    <footer class="" id="footer">
+      
+        
+
+    </footer>
+
+
+
+
+
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

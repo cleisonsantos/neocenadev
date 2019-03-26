@@ -1,0 +1,108 @@
+@media screen and (max-width:720px) {
+  .spacing {
+    padding: 5rem 1rem;
+  }
+  #btn-menu {
+    display: block;
+    height: auto;
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    padding: 05px;
+  }
+  #btn-menu span {
+    display: block;
+    background: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    margin: 10px 0px 10px 0px;
+  }
+  #menu {
+    background-color: #0070b8;
+    transition: all 0.2s ease-in-out;
+    position: fixed;
+    left: 0;
+    top: 66px;
+    height: 100%;
+  }
+  #menu div {}
+  #menu nav {}
+  #menu ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap column;
+  }
+  #menu ul li a {
+    padding: 20px 50px;
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #2d3436;
+  }
+  #menu ul li a:hover {}
+  #subcontainer {
+    width: 100%;
+  }
+  .outside {
+    margin-left: -232px;
+  }
+  .inside {}
+  #banner {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 0rem .5rem;
+  }
+  #banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  #banner p {
+    font-size: 1.5rem;
+  }
+  #services {
+    display: flex;
+    flex-flow: row wrap;
+    background: #e5e5e5;
+    padding: 5rem 0rem;
+  }
+  .service {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+  }
+  .service-img {
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .service-desc {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+  }
+  .service-desc p {
+    padding: 1rem;
+    text-align: left;
+  }
+  .service-img2 {
+    width: 50%;
+    background: url('/img/hospedagem.jpg');
+    background-size: cover;
+  }
+  .service-img3 {
+    width: 50%;
+    background: url('/img/email.png');
+    background-size: cover;
+  }
+  .orderOne {
+    order: unset;
+  }
+}

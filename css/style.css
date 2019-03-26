@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url('../img/fundocenadev.png');
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.trs {
+  transition: all .2s ease-in-out;
+}
+
+.spacing {
+  padding: 5rem;
+}
+
+#header {
+  padding: 05px 0px;
+  display: flex;
+  height: auto;
+  background: transparent;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+}
+
+.grey {
+  background-color: #ccc;
+}
+
+#logo img {
+  height: 40px;
+}
+
+#btn-menu {
+  display: none;
+}
+
+/* #btn-menu span {
+    display: block;
+    background: black;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 10px;
+
+
+  } */
+
+#container {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+#menu {
+  transition: all linear 0.2s;
+  height: auto;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
+  display: block;
+  padding: 10px 05px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-decoration: none;
+  color: #2d3436;
+}
+
+#menu ul li a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+#subcontainer {
+  width: 100%;
+}
+
+#banner {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0rem 2.5rem;
+}
+
+#banner h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#banner p {
+  font-size: 1.5rem;
+}
+
+.shadow {
+  box-shadow: 0px -10px 25px 5px black;
+}
+
+#about {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #2980b9;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+#services {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background: #e5e5e5;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding: 5rem 0rem;
+}
+
+.service {
+  display: flex;
+  height: 20rem;
+  width: 100%;
+}
+
+.service-reverse {
+  display: flex;
+  height: 20rem;
+  width: 100%;
+}
+
+.service-desc {
+  text-align: center;
+  width: 50%;
+  padding: 1rem 0rem;
+  background: #fff;
+}
+
+.service-desc p {
+  padding: 2rem;
+  text-align: left;
+}
+
+.service-img {
+  width: 50%;
+  background-size: cover;
+}
+
+.service-img2 {
+  width: 50%;
+  background: url('/img/hospedagem.jpg');
+  background-size: cover;
+}
+
+.service-img3 {
+  width: 50%;
+  background: url('/img/email.png');
+  background-size: cover;
+}
+
+#portifolio {
+  background: #212529;
+  color: #fff;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact {
+  background: #fff;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-control {
+  border: 1px #ccc solid;
+  border-radius: 4px;
+  padding: .5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: .75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  display: block;
+  width: fit-content;
+  background-color: #2980b9;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: 300px;
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+
+.btn:hover {
+  background-color: #ccc;
+}
+
+.orderOne {
+  order: 1;
+}
+
+.orderTwo {
+  order: 1;
+}
