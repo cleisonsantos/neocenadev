@@ -110,7 +110,9 @@ p {
   color: #fff;
   font-weight: bold;
 }
-
+#menu .socialMedia {
+  display: none;
+}
 #subcontainer {
   width: 100%;
 }
@@ -261,7 +263,7 @@ p {
 }
 #footer{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: rgba(33, 37, 41, .6);
   color: #fff;
 }

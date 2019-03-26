@@ -25,6 +25,8 @@
     left: 0;
     top: 66px;
     height: 100%;
+    display: grid;
+    flex-flow: column wrap;
   }
   #menu div {}
   #menu nav {}
@@ -41,6 +43,23 @@
     color: #2d3436;
   }
   #menu ul li a:hover {}
+  #menu .socialMedia {
+    display: flex;
+    justify-self: center baseline;
+    padding: 1rem;
+  }
+  #menu .socialMedia img {
+    height: 30px;
+    border: solid 1px #ccc;
+    border-radius: 100%;
+    padding: 5px;
+  }
+  #menu .socialMedia ul li {
+    display: inline;
+  }
+  #menu .socialMedia li {
+    list-style: none;
+  }
   #subcontainer {
     width: 100%;
   }
