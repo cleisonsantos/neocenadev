@@ -54,6 +54,10 @@
     border-radius: 100%;
     padding: 5px;
   }
+  #menu .socialMedia a {
+    font-size: 0;
+    padding: 5px;
+  }
   #menu .socialMedia ul li {
     display: inline;
   }
