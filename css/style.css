@@ -278,6 +278,9 @@ p {
   display: flex;
   flex-flow: column wrap;
 }
+.socialMedia ul {
+  font-size: 0;
+}
 .socialMedia ul li{
   display: inline;
 }
